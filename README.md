@@ -67,7 +67,7 @@ The table reproduces the paper's 25 dB comparison. FLOPs include the SVD preproc
   <b>Historical window length.</b> Longer CSI histories generally improve prediction by providing richer temporal correlation.
 </p>
 
-These plots are reproduced directly from the manuscript. See the [paper](paper/CSI_prediction.pdf) for the complete experimental settings and analysis.
+These plots are reproduced directly from the manuscript. See the paperfor the complete experimental settings and analysis.
 
 ## Quick start
 
@@ -159,19 +159,7 @@ The stable package lives in src/enhanced_mae/; see the [experiment guide](experi
 
 The code, paper, portable command-line wrappers, dataset validator, and model smoke test are included. The processed QuaDRiGa data and trained checkpoints are not present in this local release package, so exact paper-number reproduction additionally requires those artifacts. Their expected format and a public-release checklist are documented in [docs/DATA.md](docs/DATA.md) and [docs/RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md).
 
-## Citation
 
-If this repository is useful in your research, please cite:
-
-```bibtex
-@article{zhou2026enhancedmae,
-  title   = {An Enhanced Masked Autoencoder Framework for CSI Prediction in Wireless Systems},
-  author  = {Zhou, Yifan and Zhang, Qing and Gu, Yixiao and Sheng, Zhichao and Zeng, Dan},
-  year    = {2026}
-}
-```
-
-The citation metadata can also be imported from [CITATION.cff](CITATION.cff). Please update the venue, volume, pages, and DOI after the final bibliographic record is available.
 
 ## Acknowledgements
 
