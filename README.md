@@ -42,28 +42,28 @@ The table reproduces the paper's 25 dB comparison. FLOPs include the SVD preproc
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="assets/results/snr_robustness.png" width="100%" alt="NMSE under different SNR conditions"/><br/>
+      <img src="assetssnr_robustness.png" width="100%" alt="NMSE under different SNR conditions"/><br/>
       <b>Robustness to channel noise.</b> Enhanced MAE consistently obtains the lowest NMSE across the evaluated SNR range.
     </td>
     <td width="50%" align="center">
-      <img src="assets/results/speed_robustness.png" width="100%" alt="NMSE under different UE speeds"/><br/>
+      <img src="assets/speed_robustness.png" width="100%" alt="NMSE under different UE speeds"/><br/>
       <b>Robustness to mobility.</b> The proposed model maintains its advantage from 10 to 100 km/h.
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="assets/results/ablation_speed.png" width="100%" alt="Ablation results under different UE speeds"/><br/>
+      <img src="assets/ablation_speed.png" width="100%" alt="Ablation results under different UE speeds"/><br/>
       <b>Component ablation.</b> SVD reconstruction, hopping sampling, and multi-scale fusion provide complementary gains.
     </td>
     <td width="50%" align="center">
-      <img src="assets/results/svd_threshold.png" width="100%" alt="NMSE versus SVD energy threshold"/><br/>
+      <img src="assets/svd_threshold.png" width="100%" alt="NMSE versus SVD energy threshold"/><br/>
       <b>SVD threshold.</b> The preferred energy threshold changes with SNR, while performance remains stable around the selected value.
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <img src="assets/results/history_length.png" width="72%" alt="NMSE under different historical window lengths"/><br/>
+  <img src="assets/history_length.png" width="72%" alt="NMSE under different historical window lengths"/><br/>
   <b>Historical window length.</b> Longer CSI histories generally improve prediction by providing richer temporal correlation.
 </p>
 
