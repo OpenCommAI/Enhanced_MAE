@@ -42,7 +42,7 @@ The table reproduces the paper's 25 dB comparison. FLOPs include the SVD preproc
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="assetssnr_robustness.png" width="100%" alt="NMSE under different SNR conditions"/><br/>
+      <img src="assets/snr_robustness.png" width="100%" alt="NMSE under different SNR conditions"/><br/>
       <b>Robustness to channel noise.</b> Enhanced MAE consistently obtains the lowest NMSE across the evaluated SNR range.
     </td>
     <td width="50%" align="center">
