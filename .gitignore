@@ -1,0 +1,39 @@
+# Local reference repository (not part of this project)
+FastGS-main/
+
+# Data, model weights, and experiment outputs
+data/
+datasets/
+outputs/
+results/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# LaTeX build artifacts (keep the manuscript PDF)
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/*.toc

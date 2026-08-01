@@ -1,0 +1,6 @@
+# Install a CUDA-compatible PyTorch build first:
+# https://pytorch.org/get-started/locally/
+numpy>=1.26,<2.0
+torch>=2.2,<2.5
+tqdm>=4.66,<5
+transformers>=4.41,<4.42

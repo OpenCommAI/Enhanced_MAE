@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enhanced-mae-csi"
+version = "0.1.0"
+description = "Enhanced masked autoencoder for channel state information prediction"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Yifan Zhou" },
+  { name = "Qing Zhang" },
+  { name = "Yixiao Gu" },
+  { name = "Zhichao Sheng" },
+  { name = "Dan Zeng" },
+]
+dependencies = [
+  "numpy>=1.26,<2.0",
+  "torch>=2.2,<2.5",
+  "tqdm>=4.66,<5",
+]
+
+[project.optional-dependencies]
+llm = ["transformers>=4.41,<4.42"]
+dev = ["ruff>=0.5,<1", "pytest>=8,<9"]
+
+[project.scripts]
+enhanced-mae = "enhanced_mae.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["enhanced_mae*"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+"experiments/training/*.py" = ["E", "F", "I", "UP", "B"]
+"experiments/evaluation/**/*.py" = ["E", "F", "I", "UP", "B"]

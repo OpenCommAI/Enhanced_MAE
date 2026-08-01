@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Enhanced MAE for CSI Prediction"
+type: software
+authors:
+  - family-names: Zhou
+    given-names: Yifan
+  - family-names: Zhang
+    given-names: Qing
+  - family-names: Gu
+    given-names: Yixiao
+  - family-names: Sheng
+    given-names: Zhichao
+  - family-names: Zeng
+    given-names: Dan
+repository-code: "https://github.com/OpenCommAI/Enhanced_MAE"
+date-released: 2026-08-01
+preferred-citation:
+  type: article
+  title: "An Enhanced Masked Autoencoder Framework for CSI Prediction in Wireless Systems"
+  authors:
+    - family-names: Zhou
+      given-names: Yifan
+    - family-names: Zhang
+      given-names: Qing
+    - family-names: Gu
+      given-names: Yixiao
+    - family-names: Sheng
+      given-names: Zhichao
+    - family-names: Zeng
+      given-names: Dan
+  year: 2026
